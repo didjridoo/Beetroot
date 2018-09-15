@@ -7,3 +7,32 @@ git checkout -b name - переход ветки
 git checkout название ветки - 
 git merge - слияние веток
 git branch -D название ветки --удаление ветки
+git push origin(репозиторий) master(ветка)  
+git clone
+
+
+___________________________________________________________
+
+float - изучить
+
+изучить стандарт для ссылок
+a:link
+a:visited
+a:hover
+a:active
+
+foundation - верстка писем
+
+изучить		
+:nth-of-type(3n+2) после третьего каждый второй
+plate>.small:only-of-type
+last-of-type
+
+псевдоэлементы 
+:before - перед ним
+:after - после него
+
+псевдоклассы - изучить
+: empty
+: hover
+:not() 
