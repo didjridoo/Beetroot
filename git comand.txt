@@ -1,0 +1,9 @@
+git init
+git status
+git add
+git add commit -m ""
+git log -2
+git checkout -b name - переход ветки 
+git checkout название ветки - 
+git merge - слияние веток
+git branch -D название ветки --удаление ветки

@@ -1,0 +1,52 @@
+body {font-family: Ubuntu, sans-serif}
+
+header {
+	letter-spacing: 2px;
+    height: 8em;
+    padding: 2em 5%;
+    background: #2c3e50;
+    
+}
+
+.menu {
+	float: 
+	margin: 50px 50px 50px 50px;
+	margin-right: 10px;
+	font-size: 25px;
+}
+
+.menu-list li {
+	float:left;
+	display: block;
+	list-style: none;
+	margin-right: 3rem;
+}
+.menu-list a:link,
+.menu-list a:visited {
+	color: rgb(0, 183, 255);
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	padding: 1rem 0;
+	transition: all .3s;
+}
+.menu-list a:hover,
+.menu-list a:active {
+	border-bottom: 1px solid #fff;
+}
+.section1 {
+	width: 70%;
+	float: left;
+	margin-left: 100px;
+}
+.sidebar {
+	float: right;
+}
+
+
+.logon {
+	float: right;
+}
+.search: {
+	float: none;
+	}
