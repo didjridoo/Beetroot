@@ -1,0 +1,37 @@
+body {
+   background: #FFF url("./img2.jpg") no-repeat 0 0;
+}
+
+.main {
+   max-width: 1140px;
+   float: left;
+   padding-top: 470px;
+   padding-left: 20px;
+}
+
+.container li {
+   display: inline-block;
+   margin-right: 20px;
+}
+
+.container a {
+   text-decoration: none;
+   color: #fff;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   
+}
+
+.menu-list ul {
+   list-style: none;
+   transform: rotate(16deg);
+}
+
+.menu-list {
+   line-height: 3;
+}
+
+.container ul li a:hover {
+   color: #FE3C20;
+}
