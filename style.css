@@ -1,12 +1,14 @@
 body {
    background: #FFF url("./img2.jpg") no-repeat 0 0;
+   box-sizing: border-box;
 }
 
 .main {
-   max-width: 1140px;
+   max-width: 100%;
    float: left;
-   padding-top: 470px;
-   padding-left: 20px;
+   padding-top: 560px;
+   padding-left: 15px;
+   padding-bottom: 0px;
 }
 
 .container li {
@@ -14,13 +16,12 @@ body {
    margin-right: 20px;
 }
 
-.container a {
+.container a { 
    text-decoration: none;
-   color: #fff;
+   color: #CCDDEF;
    font-family: 'Ubuntu', sans-serif;
-   font-size: 30px;
+   font-size: 32px;
    font-weight: 300;
-   
 }
 
 .menu-list ul {
@@ -34,4 +35,13 @@ body {
 
 .container ul li a:hover {
    color: #FE3C20;
+}
+
+.main-footer {
+   transform: rotate(16deg);
+   display: inline-block;
+   color: #000508;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 20px;
+   font-weight: 300;
 }
