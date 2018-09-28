@@ -16,7 +16,7 @@ body {
    max-height: 700px;
    float: left;
    padding-top: 580px;
-   padding-left: 50px;
+   padding-left: 47px;
    padding-bottom: 0px;
 }
 
@@ -64,13 +64,13 @@ body {
    display: block;
    margin-bottom: 30px;
    margin-top: 30px;
-   margin-left: 17px;
+   margin-left: 18px;
 }
 
 .tel {
    display: block;
    margin-top: 32px;
-   padding-left: 18px;
+   padding-left: 20px;
 }
 
 .main-footer span {
