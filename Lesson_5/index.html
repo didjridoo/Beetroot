@@ -2,74 +2,146 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Weather-forecast</title>
+	<title>Huge search</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="icon" href="img/favicon.png" type="image/png">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+	<link rel="icon" href="favicon.png" type="image/png">
+	<link rel="stylesheet" href="css/style.css">
 </head>
+	<body>
+		<div class="container">
+			<form class="search">
+				<input class="search_input" type="search" type="search" placeholder="Search...">
+				<input class="search_buttom" type="submit" value=" ">
+			</form>
+			<main class="columns">
+				<section class="column">
+					<h2>PEOPLE</h2>
+					<ul class="">
+						<li>
+							<a href="#">
+								<img src="img/avatars/SaraSoueidan.jpeg" alt="">
+								Sara Soueidan
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/avatars/RachelSmith.png" alt="">
+								Rachel Smith
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/avatars/PeterFinlan.jpeg" alt="">
+								Peter Finian
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/avatars/PatrickCox.png" alt="">
+								Patrick Cox
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/avatars/TimHolman.jpeg" alt="">
+								Tim Holman
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/avatars/ShaunDona.jpeg" alt="">
+								Shaun Dona
+							</a>
+						</li>
+					</ul>
 
-<body>
-	<div class="main">
-		<header class="main-header">
-			<h1>CSS Weather Forecast <i class="wi wi-sunrise"></i></h1>
-		</header>
+				</section>
+				<section class="column">
+					<h2>POPULAR</h2>
+					<ul class="">
+						<li>
+							<a href="#">
+								<img src="img/thumbs/PagePreloadingEffect.png" alt="">
+								Page Preloadin Effect
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/thumbs/HoverEffectsIdeasNew.png" alt="">
+								Ideas for Subtle Hover Effects
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/thumbs/FreebieHalcyonDays.png" alt="">
+								Halcyon Days Template
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/thumbs/ArticleIntroEffects.png" alt="">
+								Inspiration for Article Intro Effects
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/thumbs/DraggableDualViewSlideshow.png" alt="">
+								Draggable Dual-View Slideshow
+							</a>
+						</li>
 
-		<ul class="cities">
+						<li>
+							<a href="#">
+								<img src="img/thumbs/ArrowNavigationStyles.png" alt="">
+								Arrow Navigation Styles
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section class="column">
+					<h2>RECENT</h2>
+					<ul class="">
+						<li>
+							<a href="#">
+								<img src="img/thumbs/TooltipStylesInspiration.png" alt="">
+								Tooltip Styles Inspiration
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/thumbs/AnimatedHeaderBackgrounds.png" alt="">
+								Animated Backgba-circle Headers
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/thumbs/OffCanvas.png" alt="">
+								Off-Canvas Menu Effects
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/thumbs/TabStyles.png" alt="">
+								Tab Styles Inspiration
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/thumbs/ResponsiveSVGs.png" alt="">
+								Make SVGs Responsive with CSS
+							</a>
+						</li>
 
-			<li class="per50 lisbon">
-				<span>Lisbon</span>
-				<span class="bottom">21°С <i class="wi wi-day-sunny"></i></span>
-			</li>
-			<li class="per25 paris">
-				<span>Paris</span>
-				<span class="bottom">11°С <i class="wi wi-night-sleet"></i></span>
-			</li>
-			<li class="per25 belgrad">
-				<span>Belgrad</span>
-				<span class="bottom">15°С <i class="wi wi-day-cloudy"></i></span>
-			</li>
-			<li class="per25 kiev">
-				<span>Kiev</span>
-				<span class="bottom">21°С <i class="wi wi-day-cloudy-high"></i></span>
-			</li>
-			<li class="per25 tel-aviv">
-				<span>Tel Aviv</span>
-				<span class="bottom">32°С <i class="wi wi-hot"></i></span>
-			</li>
-			<li class="per25 cair">
-				<span>Cair</span>
-				<span class="bottom">21°С <i class="wi wi-day-sunny"></i></span>
-			</li>
-			<li class="per25 new-york">
-				<span>New York</span>
-				<span class="bottom">17°С <i class="wi wi-day-sleet-storm"></i></span>
-			</li>
-			<li class="per25 delhi">
-				<span>New Delhi</span>
-				<span class="bottom">17°С <i class="wi wi-rain-wind"></i></span>
-			</li>
-			<li class="per50 san-francisco">
-				<span>San Francisco</span>
-				<span class="bottom">15°С <i class="wi wi-day-cloudy"></i></span>
-			</li>
-			<li class="per25 tokyo">
-				<span>Tokyo</span>
-				<span class="bottom">8°С <i class="wi wi-night-clear"></i></span>
-			</li>
-			<li class="per100 sydney">
-				<span>Sydney</span>
-				<span class="bottom">17°С <i class="wi wi-night-cloudy"></i></span>
-			</li>
-
-		</ul>
-
-		<p>Have a nice day and don`t forget umbrella if you are in New Delhi now!</p>
-
-	</div>
-
-</div>
-
-</body>
-
+						<li>
+							<a href="#">
+								<img src="img/thumbs/NotificationStyles.png" alt="">
+								Notification Styles Inspiration
+							</a>
+						</li>
+					</ul>
+				</section>
+			</main>
+		</div>	
+	</body>
 </html>
