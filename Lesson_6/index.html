@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header class="main_header">
+	<header class="main-header">
 		<div class="container">
 			<div class="upper_row">
 				<div class="logo">
@@ -18,7 +18,7 @@
 						<img src="img/logo.png" alt="logo">
 					</a>                    
 				</div>
-				<nav class="header_menu">
+				<nav class="main-header__menu">
 					<ul>
 						<li><a href="#">Accueli</a></li>
 						<li><a href="#">Portfolio</a></li>
@@ -28,10 +28,12 @@
 				</nav>
 			</div>
 
-			<h1>voici votre prochain portfolio</h1>
-			<h2>un template psd simple et gratuit</h2>
-			<button class="button">mes travaux</button>
-		</div>
+			<div class="main-header__content">
+				<h1>voici votre prochain portfolio</h1>
+				<h2>un template psd simple et gratuit</h2>
+				<button class="button button--green">mes travaux</button>
+			</div>
+			</div>
 	</header>
 	<section class="portfolio cf">
 		<div class="container">
@@ -39,19 +41,19 @@
 			<nav id="navigation" class="portfolio_nav">
 				<ul class="portfolio_list">
 					<li class="portfolio_item">
-						<a class="portfolio_link portfolio_link--active" href="#">Lorem ipsum</a>
+						<a class="portfolio_link portfolio_link--active" href="#">Tous les projets</a>
 					</li>
 					<li class="portfolio_item">
-						<a class="portfolio_link" href="#">Lorem ipsum</a>
+						<a class="portfolio_link" href="#">Webdesign</a>
 					</li>
 					<li class="portfolio_item">
-						<a class="portfolio_link" href="#">Lorem ipsum</a>
+						<a class="portfolio_link" href="#">UI/UX design</a>
 					</li>
 					<li class="portfolio_item">
-						<a class="portfolio_link" href="#">Lorem ipsum</a>
+						<a class="portfolio_link" href="#">Illustration</a>
 					</li>
 					<li class="portfolio_item">
-						<a class="portfolio_link" href="#">Lorem ipsum</a>
+						<a class="portfolio_link" href="#">Motion design</a>
 					</li>
 				</ul>
 			</nav>
@@ -88,6 +90,40 @@
 			</div>
 
 		</div>
+	</section>
+
+	<section class="about">
+		<div class="container cf">
+			<div class="author">
+				<h2>Lorem ipsum</h2>
+				<p class="author__description">Lorem ipsum dolor</p>
+				<p class="author__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quo beatae eius, animi consectetur, ipsa reprehenderit eum culpa placeat vero, quaerat neque. Eum, nobis, veritatis. Obcaecati quia in vitae mollitia, ab suscipit numquam ducimus voluptatibus quis officia fugit praesentium, voluptates repellendus. Consequatur dolorum, voluptatibus odit pariatur velit voluptate debitis temporibus</p>
+				<a href="#contacts" class="button button--grey">Lorem ipsum</a>
+			</div>
+		</div>
+	</section>
+	<section id="contacts" class="contacts">
+		<div class="contacts__heading">
+			<h2>Me contacter</h2>
+		</div>
+		<form class="contacts__form"></form>
+		<div class="row cf">
+			<div class="user-input">
+				<label class="contacts__label" for="name"></label>
+					<input class="contacts__input" type="text" id="name" placeholder="Votre nom"></div>
+			<div class="user-input">
+				<label class="contacts__label" for="email"></label>
+					<input class="contacts__input" type="email" id="email" placeholder="Votre email"></div>
+		</div>
+		<div class="row cf">
+			<div class="user-textarea">
+				<label class="contacts__label" for="message"></label>
+				<textarea class="contacts__textarea" name="message" id="message" placeholder="Votre text"></textarea>
+			</div>
+		</div>
+				
+			
+
 	</section>
 </body>
 </html>
