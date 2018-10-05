@@ -1,0 +1,80 @@
+
+
+
+/* @font-face {
+	font-family: "Miso";
+	font-weight: normal;
+	font-style: normal;
+	src: url("fonts/miso.woff") format("woff");
+} */
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	margin: auto;
+}
+
+.flex-container {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 600px;
+	width: 1200px;
+	background-color: #fddf7f;
+}
+
+.flex-block {
+	background-color: #FFF;
+	height: 440px;
+	width: 360px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.price {
+	color:  #02995b;
+	font-size: 70px;
+	font-weight: 600;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.picture {
+	margin-left: 20px;
+}
+
+.title {
+	padding-top: 20px;
+}
+
+.title span {
+	font-size: 56px;
+	font-weight: 600;
+}
+
+.title p {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.flex__block-center {
+	height: 500px;
+	width: 360px;
+	background-color: #FFF;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.picture-center {
+	padding-top: 100px;
+}
+
+.price-center {
+	color:  #02995b;
+	font-size: 70px;
+	font-weight: 600;
+	padding-top: 50px;
+	padding-bottom: 38px;
+}
