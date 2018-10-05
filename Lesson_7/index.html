@@ -2,92 +2,113 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">    
-	<title>Foliac</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700i,800,900|Roboto:300,400,700,800,900" rel="stylesheet">
+	<link href="https://unpkg.com/ionicons@4.4.2/dist/css/ionicons.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<title>ProductMan</title>
+
 </head>
-<body>
-	<header class="main_header">
+	
+	<body>
+
 		<div class="container">
-			<div class="upper_row">
-				<div class="logo">
-					<a href="/">
-						<img src="img/logo.png" alt="logo">
-					</a>                    
+			<header class="header cf">
+				<div class="header__logo">
+					<a href="/">ProduktMan</a>
 				</div>
-				<nav class="header_menu">
+
+				<nav class="header__menu">
 					<ul>
-						<li><a href="#">Accueli</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a class="menu-link" href="#">Resent Work</a></li>
+						<li><a class="menu-link" href="#">Featured Products</a></li>
+						<li><a href="#"><i class="icon ion-ios-menu"></i></a></li>
 					</ul>
 				</nav>
-			</div>
 
-			<h1>voici votre prochain portfolio</h1>
-			<h2>un template psd simple et gratuit</h2>
-			<button class="button">mes travaux</button>
-		</div>
-	</header>
-	<section class="portfolio cf">
-		<div class="container">
+			</header>
 			
-			<nav id="navigation" class="portfolio_nav">
-				<ul class="portfolio_list">
-					<li class="portfolio_item">
-						<a class="portfolio_link portfolio_link--active" href="#">Lorem ipsum</a>
-					</li>
-					<li class="portfolio_item">
-						<a class="portfolio_link" href="#">Lorem ipsum</a>
-					</li>
-					<li class="portfolio_item">
-						<a class="portfolio_link" href="#">Lorem ipsum</a>
-					</li>
-					<li class="portfolio_item">
-						<a class="portfolio_link" href="#">Lorem ipsum</a>
-					</li>
-					<li class="portfolio_item">
-						<a class="portfolio_link" href="#">Lorem ipsum</a>
-					</li>
-				</ul>
-			</nav>
+			<section class="slider-section cf">
+				<div class="slider-section__first">
+					<h1>BLACK&<br/>WHITE</h1>
+						
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis doloremque veritatis maxime, fuga magni aliquam, temporibus sequi. </p>
 
-			<div class="grid">
-				<ul class="grid__list">
-					<li class="grid__item">
-						<a class="grid__link" href="#">
-							<img src="https://via.placeholder.com/450x300" alt="placeholder">
-							<p class="grid__caption">Lorem ipsum.<span>Lorem ipsum.</span></p>
-						</a>
+					<a class="menu-link" href="#">View Project</a>
+				</div>
+
+				<div class="slider-section__second">
+					<img src="img/headphones.png" alt="headphones" title="headphones">
+				</div>
+
+				<div class="slider-section__nav-dot cf">
+					<ul>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>		
+				
+			</section>
+
+			<div class="product cf">
+				
+				<div class="product__up">
+					<h2>Featured Product</h2>
+					<div class="product__icon"><img src="img/underline.png" alt="Разделитель"></div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+
+				<ul class="product__items">
+					<li class="product__item first">
+						<a href="#" class="product__link"><img src="img/beats-speaker.jpg" alt="beats-speaker"></a>
 					</li>
-					<li class="grid__item">
-						<a class="grid__link" href="#">
-							<img src="https://via.placeholder.com/450x490" alt="placeholder">
-							<p class="grid__caption">Lorem ipsum.<span>Lorem ipsum.</span></p>
-						</a>
+					<li class="product__item first">
+						<a href="#" class="product__link"><img src="img/beats-head.jpg" alt="beats-head"></a>
 					</li>
-				</ul>
-				<ul class="grid__list">
-					<li class="grid__item">
-						<a class="grid__link" href="#">
-							<img src="https://via.placeholder.com/650x450" alt="placeholder">
-							<p class="grid__caption">Lorem ipsum.<span>Lorem ipsum.</span></p>
-						</a>
+					<li class="product__item second">
+						<a href="#" class="product__link"><img src="img/fitnes.jpg" alt="fitnes"></a>
 					</li>
-					<li class="grid__item">
-						<a class="grid__link" href="#">
-							<img src="https://via.placeholder.com/650x340" alt="placeholder">
-							<p class="grid__caption">Lorem ipsum.<span>Lorem ipsum.</span></p>
-						</a>
+					<li class="product__item second">
+						<a href="#" class="product__link"><img src="img/shoose.png" alt="shoose"></a>
+					</li>
+					<li class="product__item second">
+						<a href="#" class="product__link"><img src="img/chair.jpg" alt="chair"></a>
 					</li>
 				</ul>
 			</div>
 
+			<div class="subscribe">
+				<div class="subs__text">
+					<h2>PRODUCTMAN NEWS</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					 tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+
+				<form action="" class="form">
+					<i class="icon ion-ios-mail-open"></i>
+					<input type="email" class="form__input-first" placeholder="Enter you email address">
+					<a href="#"><input type="button" class="form__input-second" value="subscribe"></a>
+				</form>
+			</div>
+
+			<footer class="footer">
+				<ul class="footer__icons">
+					<li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+					<li><a href="#"><img src="img/twiter.png" alt="twiter"></a></li>
+					<li><a href="#"><img src="img/youtube.png" alt="youtube"></a></li>
+					<li><a href="#"><img src="img/m.png" alt="m"></a></li>
+				</ul>
+
+				<p>&copy; Copyright. <span>Your Company</span> ltd 2016. All Rights Reserver</p>
+
+			</footer>
+
 		</div>
-	</section>
-</body>
+	
+	</body>
+
 </html>
