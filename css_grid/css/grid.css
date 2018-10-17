@@ -9,6 +9,13 @@
 	margin-right: -15px;
 }
 
+.row::before,
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 [class^="col-"] {
 	float: left;
 	padding: 0 15px;
@@ -59,5 +66,5 @@
 }
 
 .col-12 {
-	width: calc(100% / 12 * 2);
+	width: calc(100% / 12 * 12);
 }

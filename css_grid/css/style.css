@@ -12,7 +12,9 @@ html, body {
 }
 
 body {
-	font-size: 100%;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #60606e;
 }
 
 .cf,
@@ -27,7 +29,72 @@ body {
 	display: table;
 }
 
+.heading > * {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+}
+
+.heading--section > * {
+	font-size: 30px;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+.heading--section,
+.sub-heading {
+	margin-bottom: 25px;
+}
+
+.heading--section > *::after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 65px;
+	height: 20px;
+	background-color: #7beec7;
+	bottom: 0;
+	z-index: -1;
+	left: -2px;
+}
+
+.breadcrumbs {
+	list-style: none;
+	text-align: center;
+}
+
+.breadcrumbs--heading {
+	padding-top: 15px;
+}
+
+.breadcrumbs li {
+	display: inline-block;
+	
+}
+
+.breadcrumbs a {
+	display: inline-block;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: currentcolor;
+}
+
+.breadcrumbs li::after {
+	content: "/";
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.breadcrumbs li:last-child::after {
+	display: none;
+}
+
 .main-header {
+	padding: 45px;
 	min-height: 100vh;
 	position: relative;
 }
@@ -61,11 +128,14 @@ body {
 	display: block;
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #FFF;
+	color: currentcolor;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .nav__button {
 	float: right;
+	cursor:pointer;
 }
 
 .nav__button span {
@@ -90,3 +160,80 @@ body {
 	position: relative;
 	z-index: 3;
 }
+
+.vertical-center {
+	position: absolute;
+	z-index: 3;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.about {
+	padding-top: 150px;
+}
+
+.sub-heading > * {
+	font-weight: 800;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.text {
+	line-height: 2;
+}
+
+
+.text-about {
+	line-height: 2;
+}
+
+.section {
+	padding-top: 150px;
+}
+
+.benefits .heading--section {
+	text-align: center;
+}
+
+.text-benefits {
+	text-align: center;
+	max-width: 66%;
+	margin: 0 auto;
+}
+
+.benefits-heading {
+	margin-bottom: 100px;
+}
+
+.benefit-item__heading > * {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+
+.benefit-icon {
+	width: 40px;
+	height: 40px;
+	background-color: #7beec7;
+	margin-right: 15px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.benefit-icon svg {
+	min-width: 70%;
+	
+}
+
+.icon-phone {
+	fill: #fff
+}
+
+.benefits-grid:not(:last-child) {
+	margin-bottom: 30px;
+}
+
