@@ -1,0 +1,273 @@
+/* 
+********#PRODUCT
+********#PRODUCT INFO 
+*/
+
+
+@font-face {
+	font-family: "Museo Sans Rounded";
+	src: 	url("../fonts/museosansrounded-300-webfont.eot"),
+	url("../fonts/museosansrounded-300-webfont.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    background: #232323;
+}
+
+body {
+    font-family: "Museo Sans Rounded", sans-serif;
+    font-size: 14px;
+    color: #e1e1e1;
+}
+
+.cf,
+.cf::before,
+.cf::after {
+	clear: both;
+}
+
+.cf::before,
+.cf::after {
+	content: "";
+	display: table;
+}
+
+ul > li > a {
+	display: block;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+    width: 800px;
+	margin: auto;
+	padding: 100px 0;
+	background-color: #c4c4c8;
+	background-image:	url("../img/bg.png");
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: 50% 50%;
+	position: relative;
+}
+
+.container::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image:	url("../img/layer_5.png");
+	background-size: cover;
+}
+
+/* #PRODUCT */
+
+.product {
+	border-radius: 10px;
+	background-color: #111a28;
+	box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+	max-width: 686px;
+	position: relative;
+	margin: auto;
+	z-index: 1;
+}
+
+.product__image {
+	padding: 20px;
+	width: 60%;
+	float: left;
+}
+
+.product__image-link {
+	display: block;
+	font-size: 0;
+}
+
+.product__image-link > img {
+	margin-bottom: 40px;
+}
+
+.img-box {
+	position: relative;
+	width: 100%;
+	margin: 0 0 25px;
+}
+
+.img-box::before {
+	padding-bottom: 54%;
+	content: "";
+	display: block;
+}
+
+.img-box > img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	max-width: 300px;
+	max-height: 250px;
+	object-fit: contain;
+	transform: translate(-50%, -50%);
+}
+
+.points {
+	text-align: center;
+}
+
+.points__item {
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.points__item:last-child {
+	margin-right: 0;
+}
+
+.points__link {
+	width: 10px;
+	height: 10px;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.points__link--action {
+	border-color:  #ffffff;
+	border-style: solid;
+	opacity: 0.46;
+	width: 14px;
+	height: 14px;
+	z-index: 0;
+}
+
+[data-color="blue"] {
+	background-color: #1f273f;
+}
+
+[data-color="white"] {
+	background-color: #fff;
+}
+
+[data-color="red"] {
+	background-color: #ed3333;
+}
+
+[data-color="green"]  {
+	background-color: #29e3ea;
+}
+
+/* #PRODUCT INFO */
+
+.product__info {
+	width: 40%;
+	padding: 60px 55px 40px 0;
+	float: right;
+}
+
+.product__name h1 {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.product__descr {
+	color: #919191;
+	margin-bottom: 20px;
+}
+
+.stars {
+	margin-bottom: 20px;
+}
+
+.stars__item {
+	display: inline-block;
+}
+
+.stars__point svg {
+	width: 12px;
+	height: 12px;
+}
+
+.stars__point--full {
+	fill: #f7bf16;
+}
+
+.stars__point--empty {
+	fill: #9da1a6;
+}
+
+.mod * {
+	color: #8f8f8f;
+}
+
+.mod-selects {
+	margin-bottom: 25px;
+}
+
+.mod__label {
+	display: inline-block;
+	position: relative;
+	width: 70px;
+}
+
+.mod__label::after {
+	content: "";
+	display: block;
+	width: 5px;
+	height: 5px;
+	border: 1px solid transparent;
+	border-left-color: #575d66;
+	border-bottom-color: #575d66;
+	position: absolute;
+	z-index: 0;
+	top: 36%;
+	right: 15px;
+	transform: rotate(-45deg);
+	cursor: pointer;
+}
+
+.mod__label:hover {
+	background: #4c525a;
+}
+
+.mod__apply {
+	position: relative;
+	background: none;
+	border: 1px solid #6a6f77;
+	padding: 12px;
+	width: 100%;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+
+.mod__button {
+	display: block;
+	background: none;
+	border: 1px solid #575d66;
+	padding: 10px;
+	width: 100%;
+	cursor: pointer;
+	text-align: center;
+}
+
+.mod__button:hover {
+	background: #4c525a;
+}
