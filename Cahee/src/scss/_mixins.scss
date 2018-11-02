@@ -1,16 +1,22 @@
-@mixin button($bg-color, $color: #fff) {
-    width: 100%;
-    max-width: 300px;
-    padding: 20px 0;
-    border: none;
-    box-shadow: 0 0 5px 3px rgba(#000, .1);
-    background-color: $bg-color;
-    color: $color;
-    cursor: pointer;
-    font-family: "Arial";
-    text-transform: uppercase;
+@mixin button ($bg-color, $min-width: 170px){
+	color: $secondary-color;
+	text-transform: uppercase;
+	border: none;
+	padding: 15px 0;
+	@extend .shadow;
+	background: $bg-color;
+	min-width: $min-width;
+	cursor: pointer;
+	font-size: $font-size-element;
+	transition: background .3s ease;
 
-    &:hover {
-        background-color: lighten($bg-color, 10%);
-    }
+	 &:hover {
+			background: lighten($bg-color, 5%);
+	 }
+}
+
+@mixin bg-image ($imageName, $bgPosition: 0 0){
+	background-image: url($img-path + $imageName);
+	background-repeat: no-repeat;
+	background-position: $bgPosition;
 }
