@@ -1,0 +1,36 @@
+.navigate {
+    height: 80px;
+    background-color: $dark-blue-color;
+    color: $white-color;
+
+    &__logo {
+        margin-top: 30px;
+        font-family: $secondary-font;
+        font-size: 24px;
+        float: left;
+    }
+
+    &__list {
+        float: right;
+        padding-top: 30px;
+        text-align: center;
+
+        ul {
+            text-align: center;
+            float: right;
+        }
+
+        li {
+            display: inline-block;
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        a {
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: $main-font;
+            color: $white-color;
+        }
+    }
+}

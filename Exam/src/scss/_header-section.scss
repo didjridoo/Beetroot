@@ -1,0 +1,81 @@
+.main-header {
+    min-height: 100vh;
+    background-image: url('../img/header-bg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+        text-align: center;
+        font-family: $secondary-font;
+        color: $white-color;
+        margin-bottom: 50px;
+
+        h1 {
+            font-size: 50px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        span {
+            font-size: 18px;
+            letter-spacing: 7px;
+            font-weight: 400px;
+        }
+    }
+}
+
+.main-header__form {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.form__first {
+    font-family: $secondary-font;
+    font-size: 14px;
+    width: 500px;
+    height: 60px;
+    padding-left: 10px;
+    border: 2px $white-color solid;
+    border-radius: 1px;
+    background: $white-color;
+    letter-spacing: 3px;
+    color: $dark-grey-color;
+}
+
+.form__second {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 60px;
+    font-family: $main-font;
+    color: $white-color;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 2px $white-color solid;
+    background: $dark-blue-color;
+    border-radius: 0 1px 1px 0;
+    cursor: pointer;
+}
+
+.form__second:hover {
+    background-color: lighten(#496bfe, 10%);
+}
+
+.form__second:before {
+    content: "\f002";
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+.form__input-first,
+.form__input-second {
+    display: inline-block;
+}

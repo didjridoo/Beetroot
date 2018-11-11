@@ -1,7 +1,10 @@
-@import "variables";
-@import "grid";
-@import "mixins";
-@import "common";
+@import 'variables';
+@import 'mixins';
+@import 'common';
+@import 'grid';
 
-// SECTION
-@import "header";
+@import 'header-section';
+@import 'nav';
+@import 'about';
+@import 'spain-first';
+@import 'spain-second';

@@ -1,0 +1,30 @@
+.about {
+    min-height: 80vh;
+        background-image: url('../img/choose-bg.png');
+        background-size: cover;
+
+    .about__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1170px;
+        margin: 0 auto;
+        color: white;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        
+    }
+}
+
+button {
+    padding:10px;
+    background: #000;
+}

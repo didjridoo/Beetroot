@@ -1,0 +1,52 @@
+.spain-second {
+    background-image: url('../img/rocks.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 230px;
+
+    .text-wrap {
+        float: right;
+        width: 540px;
+        height: 370px;
+        background-color: rgba(#333333, 0.9);
+        padding: 50px 30px;
+        color: $main-color;
+        font-family: $secondary-font;
+        font-weight: 300;
+    
+        span {
+            font-size: 20px;
+        }
+    
+        h3 {
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin: 30px 0;
+        }
+    
+        p {
+            font-size: 16px;
+            margin-bottom: 48px;
+        }
+    
+        button {
+            padding: 18px 38px;
+            font-family: $main-font;
+            font-size: 16px;
+            text-transform: uppercase;
+            background: $dark-blue-color;
+            border: transparent;
+            color: $white-color;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: lighten(#496bfe, 10%);
+        }
+    
+    }
+    
+}
+

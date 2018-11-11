@@ -1,0 +1,50 @@
+.about {
+    min-height: 100vh;
+    background-image: url('../img/choose-bg.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__text {
+        width: 50%;
+        float: left;
+        color: $white-color;
+      
+
+        h2 {
+            font-family: $main-font;
+            font-size: 36px;
+            font-weight: 400;
+            margin-bottom: 60px;
+        }
+
+        p {
+            font-family: $secondary-font;
+            font-size: $font-size;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+        }
+
+        button {
+            padding: 18px 38px;
+            font-family: $main-font;
+            font-size: 16px;
+            text-transform: uppercase;
+            background: $dark-blue-color;
+            border: transparent;
+            color: $white-color;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: lighten(#496bfe, 10%);
+        }
+    }
+
+    &__image {
+        float: right;
+    }
+}
